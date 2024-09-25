@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         tags = "@Regression",
         plugin = {
                 "html:target/cucumber_report/index.html",
-                "json:target/jsonReport/report.json"
+                "json:target/jsonReport/report.json" // jason report
         }
 )
 public class TestRunner {
